@@ -4,6 +4,6 @@ terraform {
 
 resource "null_resource" "gitops_check" {
   triggers = {
-    env = "project18-gitops"
+    env = "project18-gitops-v2"
   }
 }
